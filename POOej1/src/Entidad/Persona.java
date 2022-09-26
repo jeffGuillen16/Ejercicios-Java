@@ -9,9 +9,8 @@ public class Persona {
     public String nombre;
     public int dni;
     public int edad;
-    
+    // constructor vacio
     public Persona(){
-       System.out.println("Hi everyOne");
            
     }
     
