@@ -20,11 +20,12 @@ public class EjerciciosObjetosMain {
     }
         }
  */
+
+//Ejercicio 1
 public class EjerciciosObjetosMain {
 
     public static void main(String[] args) {
         Libro objeto=new Libro(23232,"movidick","cesar",23);
-        objeto.informeLibro();
         Libro objeto2=new Libro();
         Libro objeto3=new Libro();
         objeto3.cargarLibro();
