@@ -17,11 +17,11 @@ public class Ejercicio2 {
      */
     public static void main(String[] args) {
        Eje2Circunferencia Objeto = new Eje2Circunferencia(4);
-       // Eje2Circunferencia objeto2= new Eje2Circunferencia();
+       //Eje2Circunferencia objeto2= new Eje2Circunferencia();
        //objeto2.crearCircunferencia();
-       // System.out.println(objeto2.getRadio());
-        System.out.println("El area es: " + Objeto.area());
-        System.out.println("El perimetro es " + Objeto.perimetro());
+       //System.out.println(objeto2.getRadio());
+       //System.out.println("El area es: " + Objeto.area());
+       //System.out.println("El perimetro es " + Objeto.perimetro());
         
     }
     

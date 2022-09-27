@@ -10,6 +10,7 @@ import java.util.Scanner;
  * @author marco
  */
 public class Eje2Circunferencia {
+    //atributo
     private double radio;
     
     //método constructor Vacio
