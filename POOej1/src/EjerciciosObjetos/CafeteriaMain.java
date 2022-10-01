@@ -15,8 +15,12 @@ public class CafeteriaMain {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Cafetera Objeto = new Cafetera();
-       Objeto.edad=3;
+       Cafetera Objeto = new Cafetera(300,200);
+       Objeto.llenarCafetera();
+        System.out.println("Capacidad maxima actual es:" + Objeto.getCapacidadMaxima());
+       Objeto.servirTaza(500);
+       Objeto.vaciarCafetera();
+       Objeto.agregarCafe(400);
     }
     
 }
