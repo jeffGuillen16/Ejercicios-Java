@@ -22,13 +22,15 @@ public class Persona {
     
     }
 
-    public Persona(String nombre, int edad, int peso, double altura) {
+    public Persona(String nombre, int edad, String sexo, int peso, double altura) {
         this.nombre = nombre;
         this.edad = edad;
+        this.sexo = sexo;
         this.peso = peso;
         this.altura = altura;
     }
 
+   
     public String getNombre() {
         return nombre;
     }

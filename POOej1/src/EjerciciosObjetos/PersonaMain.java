@@ -15,7 +15,7 @@ public class PersonaMain {
         int [] vectorPersonas=new int[4];
         boolean[] vectPersonasEdad=new boolean[4];
         
-        Persona Persona1= new Persona("Mario",24,70,1.68);
+        Persona Persona1= new Persona("Mario",24,"H",70,1.68);
         System.out.println(Persona1.calcularIMC());
         if(Persona1.esMayorDeEdad()==true){
             System.out.println("Es mayor de edad");
@@ -27,7 +27,7 @@ public class PersonaMain {
         
         
         System.out.println("--------");
-        Persona Persona2= new Persona("Mati",19,100,1.70);
+        Persona Persona2= new Persona("Mati",19,"H",100,1.70);
         System.out.println(Persona2.calcularIMC());
         if(Persona2.esMayorDeEdad()==true){
             System.out.println("Es mayor de edad");
@@ -38,7 +38,7 @@ public class PersonaMain {
         vectPersonasEdad[1]=Persona2.esMayorDeEdad();
         
         System.out.println("--------");
-        Persona Persona3= new Persona("Mari",10,30,1.50);
+        Persona Persona3= new Persona("Mari",10,"O",30,1.50);
         System.out.println(Persona3.calcularIMC());
         if(Persona3.esMayorDeEdad()==true){
             System.out.println("Es mayor de edad");
@@ -50,7 +50,7 @@ public class PersonaMain {
         
         
         System.out.println("--------");
-        Persona Persona4= new Persona("Juli",12,68,1.70);
+        Persona Persona4= new Persona("Juli",12,"M",68,1.70);
         System.out.println(Persona4.calcularIMC());
         if(Persona4.esMayorDeEdad()==true){
             System.out.println("Es mayor de edad");
