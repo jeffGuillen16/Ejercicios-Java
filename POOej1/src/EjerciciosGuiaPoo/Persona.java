@@ -102,24 +102,24 @@ public class Persona {
     
     //Método calcularIMC():
     
-    public void calcularIMC(){
+    public int calcularIMC(){
     double pesoIdeal;
     pesoIdeal=peso/(Math.pow(this.altura,2));
-    
+    int resultado=-1;
         if(pesoIdeal<20){
-            System.out.println("Esta debajo de su peso ideal ");
-            System.out.println("-1");
+            resultado=-1;
+            return resultado;
         }
         
         if(pesoIdeal>=20 && pesoIdeal<=25){
-            System.out.println("Peso Ideal");
-            System.out.println("0");
+            resultado=0;
+            return resultado;
         }
         
         if(pesoIdeal>25){
-            System.out.println("Esta por encima del peso Ideal");
-            System.out.println("1");
+            resultado=1;
         }
+        return resultado;
     }
     
    // Método esMayorDeEdad()
