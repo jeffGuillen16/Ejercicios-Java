@@ -142,11 +142,24 @@ public class Ejercicios {
                 System.out.print("*");
                 i++;
                 }
+            
             System.out.println();
-            //Parte inferior
-            while(i<nElemento){
+            //Parte del medio
+              for ( int p=0;p<nElemento-2;p++){
                 System.out.print("*");
-                i++;
+                 for(int k=1;k<nElemento-1;k++){
+                 System.out.print(" ");
+       }        
+        System.out.println("*");
+                  
+    }
+   
+            int j=0;
+            
+            //Parte inferior
+            while(j<nElemento){
+                System.out.print("*");
+                j++;
                 }
          }    
     }

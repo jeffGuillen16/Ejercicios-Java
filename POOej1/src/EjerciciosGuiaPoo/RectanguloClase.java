@@ -5,12 +5,12 @@
  */
 package EjerciciosGuiaPoo;
 import java.util.Scanner;
-//Ejercicio 4 Rectangulo
-public class Rectangulo {
+//Ejercicio 4 RectanguloClase
+public class RectanguloClase {
        private int base;
        private int altura;
-       
-//Crear Rectangulo    
+
+//Crear RectanguloClase    
 public void crearRectangulo(){
     Scanner Leer = new Scanner(System.in);
     System.out.println("Ingrese base");
@@ -18,28 +18,47 @@ public void crearRectangulo(){
     System.out.println("Ingrese Altura");
     altura=Leer.nextInt();
     }
-//Superficie Rectangulo
+//Superficie RectanguloClase
 public int superficieRectangulo(){
     return base*altura;
 }
 
-//perimetro Rectangulo
+//perimetro RectanguloClase
 public int perimetroRectangulo(){
     return (base+altura)*2;
     }
 
 public void dibujarRectangulo(){
+    //Parte superior
     for(int i=0;i<base;i++){
-        for(int j=0;j<altura;j++){
-        System.out.println("*");  
+        System.out.print("*");  
             }
-        System.out.println();
-        }
+    System.out.println();
+    
+    //Parte medio
+    for (int i=0;i<altura-2;i++){
+        System.out.print("*");
+       for(int j=1;j<base-1;j++){
+           System.out.print(" ");
+       }        
+        System.out.println("*");
+    }
+    
+    //Parte inferior
+    
+    for(int i=0;i<base;i++){
+        System.out.print("*");  
+            }
+        
+        
     }
 //Metodo constructor
-    public Rectangulo(int base, int altura) {
+    public RectanguloClase(int base, int altura) {
         this.base = base;
         this.altura = altura;
+    }
+
+    public RectanguloClase() {
     }
     
 //Setter 

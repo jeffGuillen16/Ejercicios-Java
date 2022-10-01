@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package EjerciciosObjetos;
-import EjerciciosGuiaPoo.Rectangulo;
+import EjerciciosGuiaPoo.RectanguloClase;
 /**
  *
  * @author marco
@@ -12,7 +12,7 @@ import EjerciciosGuiaPoo.Rectangulo;
 public class RectanguloMain {
 
     public static void main(String[] args) {
-        Rectangulo objeto = new Rectangulo();
+        RectanguloClase objeto = new RectanguloClase();
         objeto.crearRectangulo();
         objeto.dibujarRectangulo();
         
