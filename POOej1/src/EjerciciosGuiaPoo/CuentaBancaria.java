@@ -98,7 +98,7 @@ public class CuentaBancaria {
         double extraccion;
         double porcentaje=0.2;
         extraccion = porcentaje*this.saldoActual;
-        if(extraccion<0.21){
+        if(extraccion>0.20){
             return 0;
         }
         return extraccion;
