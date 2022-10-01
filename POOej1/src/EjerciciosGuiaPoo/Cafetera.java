@@ -9,6 +9,8 @@ package EjerciciosGuiaPoo;
  *
  * @author marco
  */
+
+//Ejercicio 6
 public class Cafetera {
     private int capacidadMaxima;
     private int cantidadActual;
