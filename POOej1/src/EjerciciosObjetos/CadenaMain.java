@@ -23,7 +23,7 @@ public class CadenaMain {
     Objeto.unirFrases("avion");
     Objeto.reemplazar("a");
     Objeto.compararLongitud("holaaa");
-    Objeto.contiene("a");
+    Objeto.contiene("h");
     }
     
 }
