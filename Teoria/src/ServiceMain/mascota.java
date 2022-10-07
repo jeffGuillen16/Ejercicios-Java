@@ -17,6 +17,7 @@ public class mascota {
        
         Perro m1 = sm.crearMascota();
         System.out.println("es :" + m1.toString());
+        // se pone null para que el objeto no ocupe memoria
         m1=null;
        
     }
