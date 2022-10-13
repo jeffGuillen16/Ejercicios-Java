@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package EjerciciosGuiaPoo;
-
+//Ejercicio 12
 import java.util.Date;
 import java.util.Scanner;
 
