@@ -11,12 +11,13 @@ public class Fecha {
     private Date fecha;//Atributo tipo Date
 
     public Fecha() {
+        fecha = new Date(); //Esto es para que no se cree la fecha en null 
     }
 
     public Fecha(Date fecha) {
         this.fecha = fecha;
     }
-    
+    /*
     public Date getFecha() {
         return fecha;
     }
@@ -25,7 +26,7 @@ public class Fecha {
         this.fecha = fecha;
     }
 
-    
+    */
      public void llenarFecha(Date fecha) {
         this.fecha = fecha; // Lo guardamos en el atributo
     }

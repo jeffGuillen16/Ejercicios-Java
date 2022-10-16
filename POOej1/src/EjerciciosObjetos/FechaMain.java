@@ -14,7 +14,7 @@ public class FechaMain {
  
     public static void main(String[] args) {
        
-        ClassDateService f=new ClassDateService();
+        ClassDateService f = new ClassDateService();
         
         f.muestroFechaIngresada();
        

@@ -19,7 +19,7 @@ public class PersonaDate {
 
     //Constructor Vacio
     public PersonaDate() {
-
+        fechaNacimiento = new Date ();//Esto es para que no se cree la fecha en null 
     }
 
     //Constructor Parametrizado
