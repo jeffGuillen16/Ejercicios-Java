@@ -3,7 +3,7 @@ Ejercicio de la Guia Objetos de Java , temas vistos:
 
 #Algotitmos
 - Variables
-- Estructura de decisión / Anidads , repetición, switch else
+- Estructura de decisión / Anidadas , repetición, switch else
 - Funciones / Retorno y sin retorno / Argumentos y parametros
 - Vectores Estaticos
 - Matrices
