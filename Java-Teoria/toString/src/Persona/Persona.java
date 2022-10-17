@@ -32,11 +32,11 @@ public class Persona {
 
 
   
-    /*
+    
     @Override //para sobreescrictura
     public String toString(){
         return "Su nombre es " + this.nombre + ", tiene " + this.edad + ", su dni es " + this.dni;
     }
-    */
+   
     
 }
