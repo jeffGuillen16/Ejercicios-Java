@@ -10,11 +10,16 @@ import java.util.Scanner;
 public class NewMain {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner (System.in);
-        //Service Jugador = new Service();
-        //Jugador.llenarObjeto();
-        //Jugador.mostrar();     
         
+        //ArrayList 
+        
+        Service Jugador = new Service();
+        Jugador.llenarObjeto();
+        Jugador.mostrar();     
+        
+        
+        /*  Array con Objetos
+        Scanner scan = new Scanner (System.in);
         Jugador Objeto[] = new Jugador[2];
         
         for(int i=0 ; i < 2;i++){
@@ -27,9 +32,9 @@ public class NewMain {
         int edad= scan.nextInt();
         System.out.println("Ingrese altura el jugador");
         double altura = scan.nextDouble();
-        
+        scan.nextLine();//Limpio el buffer "/n ya no se almacena en la siguiente linea"
         Objeto [i] = new Jugador(pais,nombre,edad,altura);
-        scan.nextLine();
+        
         }
         
         for(int i=0 ; i < 2;i++){
@@ -40,7 +45,7 @@ public class NewMain {
              
         }
         
-        
+        */
         
     }
     
