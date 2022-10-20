@@ -16,7 +16,9 @@ public class NewMain {
         Service Jugador = new Service();
         Jugador.llenarObjeto();
         Jugador.mostrar();     
-        
+        Jugador.eliminar();
+        System.out.println("........ArryList actualizado.....");
+        Jugador.mostrar(); 
         
         /*  Array con Objetos
         Scanner scan = new Scanner (System.in);
