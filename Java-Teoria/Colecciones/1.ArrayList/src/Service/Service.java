@@ -6,10 +6,13 @@
 package Service;
 import Colecciones.Jugador;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Scanner;
 public class Service {
-     ArrayList<Jugador>ObjetoList=new ArrayList();
-        
+    
+     ArrayList<Jugador> ObjetoList = new ArrayList<>();
+     Iterator<Jugador> it = ObjetoList.iterator();
+             
     public void llenarObjeto(){
         
        
@@ -53,6 +56,14 @@ public class Service {
         ObjetoList.remove(ObjetoList.size()-1);
         
         }
+ //Elimino todos los elemento del ArrayList    
+    public void arrayListEliminado(){    
+    
+        
+    ObjetoList.clear();
+        
+    }
+    
     
     
 }

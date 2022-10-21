@@ -5,8 +5,6 @@
  */
 package Main;
 import Service.Service;
-import Colecciones.Jugador;
-import java.util.Scanner;
 public class NewMain {
 
     public static void main(String[] args) {
@@ -16,7 +14,8 @@ public class NewMain {
         Service Jugador = new Service();
         Jugador.llenarObjeto();
         Jugador.mostrar();     
-        Jugador.eliminar();
+        //Jugador.eliminar();
+        Jugador.arrayListEliminado();
         System.out.println("........ArryList actualizado.....");
         Jugador.mostrar(); 
         
