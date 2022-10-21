@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Service {
     
      ArrayList<Jugador> ObjetoList = new ArrayList<>();
-     Iterator<Jugador> it = ObjetoList.iterator();
+     
              
     public void llenarObjeto(){
         
@@ -58,12 +58,22 @@ public class Service {
         }
  //Elimino todos los elemento del ArrayList    
     public void arrayListEliminado(){    
-    
+    Iterator<Jugador> it = ObjetoList.iterator();
+    while(it.hasNext()){
+            //String nombre_jugador = it.next().getNombre();
+            
+            it.next();
+            it.remove();
+                
+    }
+            //ObjetoList.remove(it);
+            /* String nombreJugador = it.next().getNombre();
+             System.out.println(nombreJugador);*/
+    }
         
-    ObjetoList.clear();
+        
+   // ObjetoList.clear();
         
     }
     
     
-    
-}

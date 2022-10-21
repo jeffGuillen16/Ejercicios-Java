@@ -5,6 +5,8 @@
  */
 package Main;
 import Service.Service;
+import java.util.ArrayList;
+import java.util.Iterator;
 public class NewMain {
 
     public static void main(String[] args) {
@@ -15,8 +17,8 @@ public class NewMain {
         Jugador.llenarObjeto();
         Jugador.mostrar();     
         //Jugador.eliminar();
+        System.out.println("........ArrayList actualizado.....");
         Jugador.arrayListEliminado();
-        System.out.println("........ArryList actualizado.....");
         Jugador.mostrar(); 
         
         /*  Array con Objetos
