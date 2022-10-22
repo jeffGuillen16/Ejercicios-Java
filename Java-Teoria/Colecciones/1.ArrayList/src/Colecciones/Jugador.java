@@ -4,13 +4,20 @@
  * and open the template in the editor.
  */
 package Colecciones;
+import java.util.Comparator;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 
 public class Jugador {
+
+   
    private String Pais;
    private String nombre;
-   private int edad;
-   private double altura;
+   private Integer edad;
+   private Double altura;
 
     public Jugador() {
     }
@@ -22,38 +29,14 @@ public class Jugador {
         this.altura = altura;
     }
 
-    public void setPais(String Pais) {
-        this.Pais = Pais;
+   
+
+    @Override
+    public String toString() {
+        return "Jugador{" + "Pais=" + Pais + ", nombre=" + nombre + ", edad=" + edad + ", altura=" + altura + '}';
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-
-    public void setAltura(double altura) {
-        this.altura = altura;
-    }
-
-    public String getPais() {
-        return Pais;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-
-    public double getAltura() {
-        return altura;
-    }
-
+ 
     
   
    

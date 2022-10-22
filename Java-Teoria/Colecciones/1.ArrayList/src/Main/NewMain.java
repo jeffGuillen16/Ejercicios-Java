@@ -5,22 +5,23 @@
  */
 package Main;
 import Service.Service;
-import java.util.ArrayList;
-import java.util.Iterator;
 public class NewMain {
 
     public static void main(String[] args) {
         
         //ArrayList 
-        
         Service Jugador = new Service();
         Jugador.llenarObjeto();
         Jugador.mostrar();     
         //Jugador.eliminar();
         System.out.println("........ArrayList actualizado.....");
-        Jugador.arrayListEliminado();
+        // Jugador.arrayEliminaJugador();
         Jugador.mostrar(); 
-        
+        System.out.println("........ArrayList Ordenado.....");
+        Jugador.ordenarLista();
+        Jugador.mostrar();        
+        System.out.println("........ArrayList actualizado.....");
+        Jugador.eliminarTodoArrayList();
         /*  Array con Objetos
         Scanner scan = new Scanner (System.in);
         Jugador Objeto[] = new Jugador[2];
