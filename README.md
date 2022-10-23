@@ -5,7 +5,7 @@ Ejercicio de la Guia Objetos de Java , temas vistos:
 - Variables
 - Estructura de decisión / Anidadas , repetición, switch else
 - Funciones / Retorno y sin retorno / Argumentos y parametros
-- Vectores Estaticos
+- Vectores Estaticos / Asignación estatica
 - Matrices
 
 #Objetos
@@ -18,4 +18,4 @@ Ejercicio de la Guia Objetos de Java , temas vistos:
 
 #Colecciones
 -ArrayList
-
+-Asignación Dinamica
