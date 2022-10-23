@@ -12,15 +12,16 @@ la lista ordenada.
 */
 package Main;
 
-import Service.Servicio;
+import Perros.Perro;
 
 
 public class Main {
     
     public static void main(String [] args){
-    Servicio Perro = new Servicio();
-    Perro.listado();
-    Perro.mostrar();
+    Perro Perro = new Perro();
+    Perro.listarArrayList();
+    Perro.mostrarList();
     Perro.buscarPerro();
+    
             }
 }
