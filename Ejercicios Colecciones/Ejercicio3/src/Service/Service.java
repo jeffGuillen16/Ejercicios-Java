@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class Service {
     
-    ArrayList<Alumno>ListAlumno ;
-
+    private ArrayList<Alumno>ListAlumno ;
+   
     public Service() {
         this.ListAlumno=new ArrayList();
+       
     }
 
     
@@ -37,14 +38,27 @@ public class Service {
         }        while(respuestaIngresar.equals("S"));
         }
     
-     //Recorremos un ArraList con For each
-    public void mostrar(ArrayList<Alumno>ListAlumno) {
+        //Recorremos un ArraList con For each
+        public void mostrar(ArrayList<Alumno>ListAlumno) {
             
             for (Alumno Objeto : ListAlumno) {
             System.out.println(Objeto.toString());
-           
-            
+                    
         }
+            
+        
+        
     }  
+        public void notaFinal(){
+             Scanner scan = new Scanner (System.in);
+             System.out.println("Ingrese nombre de alumno:");
+             String esNombre = scan.nextLine();
+             
+             
+             
+             
+             
+        }
+        
     
 }
