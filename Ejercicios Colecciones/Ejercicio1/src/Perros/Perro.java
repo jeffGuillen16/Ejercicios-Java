@@ -23,8 +23,8 @@ public class Perro {
 
         do {
             System.out.println("Ingrese una Raza de perro:");
-            String RazaIngresada = Scan.nextLine();
-            EsDeRaza.add(RazaIngresada);//Añado a Lista
+            String razaIngresada = Scan.nextLine();
+            EsDeRaza.add(razaIngresada);//Añado a Lista
             System.out.println("Desea ingresar otra Raza de perro  : S/N ");
             RespuestaUsuario = Scan.nextLine();
         } while (RespuestaUsuario.equals("S"));
