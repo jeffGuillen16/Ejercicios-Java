@@ -11,9 +11,6 @@ public class Alumno {
     private String nombre;
     private ArrayList<Integer>notas;
 
-    public Alumno (){
-    this.notas=new ArrayList();
-    }
     
     public Alumno(String nombre, ArrayList<Integer> notas) {
         this.nombre = nombre;
