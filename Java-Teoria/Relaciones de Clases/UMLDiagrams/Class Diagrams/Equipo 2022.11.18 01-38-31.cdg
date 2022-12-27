@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Equipo">
+  <ClassDiagramComponents>
+    <Class name="Equipo" package="Equipo" visibility="public" xPosition="203.0" yPosition="105.0">
+      <Fields>
+        <Field name="jug" type="ArrayList&lt;Jugador&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getJug" returnType="ArrayList&lt;Jugador&gt;" visibility="public"/>
+        <Method name="setJug" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Jugador&gt;" name="jug"/>
+        </Method>
+        <Method name="mostrar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

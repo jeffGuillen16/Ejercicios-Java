@@ -1,7 +1,7 @@
 
 package Main;
-import Jugador.Jugador;
-import Equipo.Equipo;
+import Ejercicio2Teoria.Jugador;
+import Ejercicio2Teoria.Equipo;
 import java.util.ArrayList;
 
 public class NewMain {

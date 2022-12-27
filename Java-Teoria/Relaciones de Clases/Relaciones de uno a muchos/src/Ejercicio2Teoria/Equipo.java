@@ -1,7 +1,6 @@
 
-package Equipo;
+package Ejercicio2Teoria;
 
-import Jugador.Jugador;
 import java.util.ArrayList;
 
 public class Equipo {

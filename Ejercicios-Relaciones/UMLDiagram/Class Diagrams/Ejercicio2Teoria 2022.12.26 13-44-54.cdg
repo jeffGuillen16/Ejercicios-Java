@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Ejercicio2Teoria">
+  <ClassDiagramComponents>
+    <Class name="Equipo" package="Ejercicio2Teoria" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="jug" type="ArrayList&lt;Jugador&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getJug" returnType="ArrayList&lt;Jugador&gt;" visibility="public"/>
+        <Method name="setJug" returnType="void" visibility="public">
+          <Argument type="ArrayList&lt;Jugador&gt;" name="jug"/>
+        </Method>
+        <Method name="mostrar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Jugador" package="Ejercicio2Teoria" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apellido" type="String" visibility="private"/>
+        <Field name="posicion" type="String" visibility="private"/>
+        <Field name="numero" type="Integer" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+          <Argument type="String" name="apellido"/>
+          <Argument type="String" name="posicion"/>
+          <Argument type="Integer" name="numero"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="Ejercicio2Teoria.Equipo" target="Ejercicio2Teoria.Jugador" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="jug" source="Ejercicio2Teoria.Equipo" target="Ejercicio2Teoria.Jugador" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Jugador&gt;"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

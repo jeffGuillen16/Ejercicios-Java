@@ -14,7 +14,7 @@ public class Perro {
 
     //Por defecto
     public Perro() {
-        this.EsDeRaza = new ArrayList(); //Inicializa el nuevo ArrayList
+     //  this.EsDeRaza = new ArrayList(); //Inicializa el nuevo ArrayList
     }
 
     public void listarArrayList() {

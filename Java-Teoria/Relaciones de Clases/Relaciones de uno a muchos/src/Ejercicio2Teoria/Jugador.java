@@ -1,5 +1,5 @@
 
-package Jugador;
+package Ejercicio2Teoria;
 import lombok.Getter;
 import lombok.Setter;
 
