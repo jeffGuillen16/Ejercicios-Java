@@ -17,10 +17,10 @@ Ejercicio de la Guia Objetos de Java , temas vistos:
 - Class Date
 
 #Colecciones
--ArrayList
--Asignación Dinamica
+- ArrayList
+- Asignación Dinamica
 #UML
-
+ 
 #SQL
 
 #Spring Boot
